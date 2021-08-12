@@ -16,7 +16,7 @@ class CountriesList extends React.Component {
                            <div class="col-5" style={{maxheight:"90%", overflow:"scroll"}}>
             <div class="list-group">
             <Link exact to="/"class="list-group-item list-group-item-action" href={country.cca3}
-                >{country.name.common}</Link>
+                >{country.name.common}  {country.flag}</Link>
                        </div>
                        
                    

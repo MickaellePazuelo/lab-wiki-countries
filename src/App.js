@@ -15,10 +15,8 @@ function App() {
 
       <Switch>
 
-        <Route exact path="/" component={NavBar}/>
-        <Route exact path="/countrieslist" component={CountriesList}/>
-        <Route exact path="/countrydetails" component={CountryDetails}/>
-
+        <Route exact path="/CountryDetails/:details" component={CountryDetails}/>
+      
       </Switch>
 
     </div>
