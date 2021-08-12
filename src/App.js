@@ -15,7 +15,7 @@ function App() {
 
       <Switch>
 
-        <Route exact path="/CountryDetails/:details" component={CountryDetails}/>
+        <Route exact path="/countrydetails/:details" component={CountryDetails}/>
       
       </Switch>
 
